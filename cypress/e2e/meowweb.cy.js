@@ -90,9 +90,6 @@ describe('remover favorito', () => {
       cy.get('#lista').should('not.contain', siameseAPI.origin)
       cy.get('#lista').should('not.contain', siameseAPI.weight.metric)
       cy.get('#lista').should('not.contain', siameseAPI.temperament)
-
-      cy.get()
-
     })
   })
 })
