@@ -26,25 +26,35 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 ## Como Rodar o Projeto
 1. **Clone o repositório:**
-bash
+   
+   ```
+   bash
    git clone https://github.com/Lunvick/MeowWeb-Projeto-Final.git
    cd MeowWeb-Projeto-Final
-2.
-3. **Abra o arquivo index.html em qualquer navegador (ou inicie um servidor local se estiver usando frameworks).**
+   ```
+   
+3.
+4. **Abra o arquivo index.html em qualquer navegador (ou inicie um servidor local se estiver usando frameworks).**
 
 ##  Como Rodar os Testes (Cypress)
 Este projeto utiliza Cypress para testes E2E (Navegação, Ciclo de Vida e Integração API).
-O Cypress realiza testes E2E (End-to-End) para validar a jornada completa do usuário, incluindo a integração com a API pública e regras de UI.
+O Cypress realiza testes E2E (End-to-End) para validar a jornada completa do usuário, incluindo a integração com a API pública e testes de UI.
 
 1. **Abra o Cypress:**
-bash
-   npx cypress open
+   
+   ```
+  bash
+  npx cypress open
+   ```
 
-2. **No painel do Cypress, clique em **E2E Testing** e selecione o teste desejado (.cy.js).**
+3. **No painel do Cypress, clique em **E2E Testing** e selecione o teste desejado (.cy.js).**
 
-3. **Para rodar em modo headless (terminal):**
-bash
+4. **Para rodar em modo headless (terminal):**
+
+   ```
+   bash
    npx cypress run
+   ```
    
 ## Documentação BDD (Gherkin)
 Os cenários de teste estão descritos no arquivo specs.md na raiz do projeto, contendo cenários de busca, navegação entre páginas e tratamento de erros [1.1].
