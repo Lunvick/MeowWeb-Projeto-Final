@@ -1,0 +1,205 @@
+body {
+  font-family: Arial;
+  background: #ffeef2;
+  margin: 0;
+}
+
+nav{
+    background: linear-gradient(135deg, #ff6b81, #ff9ab7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+}
+
+.meowweb-logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#patinha-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.titulo-logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+
+nav a {
+  color: white;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: 0.3s;
+  font-family: 'Pacifico';
+  text-decoration: none;
+}
+
+nav a:hover{
+    opacity: 0.7;
+    text-decoration: none;
+    color: #ffffffda;
+}
+
+nav a:active {
+  text-decoration: underline;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    font-size: 20px;
+}
+
+
+h2{
+    text-align:center;
+    font-size: 20px;
+}
+
+
+/* CENTRALIZA A BUSCA */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  margin: auto;
+}
+
+.caixa-busca {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input{
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+    
+    border: 2px solid #ff6b81;
+    border-radius: 8px;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  width: 220px;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* IMAGEM AJUSTADA */
+.card img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* BOTÃO FAVORITAR */
+.img-box {
+  position: relative;
+}
+
+.fav-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: gold;
+  border-radius: 50%;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/* BOTÃO GERAL */
+#search-button, .remove-fav-btn {
+  padding: 10px;
+  background: #ff6b81;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* MENSAGEM CENTRAL ROSA */
+.msg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ff6b81;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* BANNER*/ 
+
+.container-banner{
+    width: 650px;
+    height: 300px;
+}
+
+.banner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: auto;
+    margin-bottom: 60px;
+}
+
+.banner-left, .banner-right, .carousel-inner {
+    width: 650px;
+    height: 350px;
+    background: rgb(240, 167, 191);
+}
+
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeowWeb</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="shortcut icon" type="image/png" sizes="96x96" href="Images/patinha_de_gato.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="meowweb-logo">
+                  <img src="Images/patinha_de_gato.png" id="patinha-logo">
+                  <a class="titulo-logo">MeowWeb</a>
+            </div>
+
+            <ul class="nav-list">
+              <a href="index.html">Home</a>
+              <a href="detalhes.html">Detalhes</a>
+              <a href="favoritos.html">Favoritos</a>
+            </ul>
+        </nav>
+    </header>
+
+
+
+ <div class="banner-wrapper">
+    <div class="banner-left"></div>
+    <div class="container-banner">
+        <div id="meuCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#meuCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#meuCarousel" data-slide-to="1"></li>
+                <li data-target="#meuCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Images/Banner1.jpg" alt="Banner de gatos" title="Banner número 1">
+                </div>
+                 <div class="item">
+                    <img src="Images/Banner2.jpg" alt="Banner de gatos" title="Banner número 2">
+                </div>
+                 <div class="item">
+                    <img src="Images/Banner3.jpg" alt="Banner de gatos" title="Banner número 3">
+                </div>
+            </div>
+
+            <a href="#meuCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                 <span class="sr-only">Anterior</span>
+            </a>
+            <a href="#meuCarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                 <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+    <div class="banner-right"></div>
+</div>
+
+
+
+
+<main class="container">
+  <div class="caixa-busca">
+    <h2>🐱 Encontre sua raça de gato</h2>
+
+    <input id="busca" placeholder="Ex: Siamese">
+    <button id="search-button" onclick="buscar()">Buscar</button>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
