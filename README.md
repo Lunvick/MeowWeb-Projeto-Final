@@ -75,7 +75,7 @@ O Cypress realiza testes E2E (End-to-End) para validar a jornada completa do usu
    ```
    
 ## Documentação BDD (Gherkin)
-Os cenários de teste estão descritos no arquivo specs.md na raiz do projeto, contendo cenários de busca, navegação entre páginas e tratamento de erros [1.1].
+Os cenários de teste estão descritos no arquivo specs.md na raiz do projeto, contendo cenários de busca, navegação entre páginas e funcionalidades.
 
 ## Colaboradores
 Anna Luiza Mello Rufino;
